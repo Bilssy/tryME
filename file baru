@@ -1,1 +1,3 @@
-
+const a="my name";
+console.log(a);
+console.log(typeof a);
