@@ -1,3 +1,8 @@
 const a="my name";
 console.log(a);
 console.log(typeof a);
+
+const b=document.getElementById("user");
+b.addEventListener("click",function(e){
+a.textNode="new text"
+});
